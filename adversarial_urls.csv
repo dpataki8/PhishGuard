@@ -1,0 +1,11 @@
+Url,IsPhishing,AttackType
+http://m1crosoft.com/,true,homograph
+http://faceb00k.net/,true,homograph
+http://gogle.org/,true,homograph
+http://amaz0n.shop/,true,homograph
+http://paypa1.ml/,true,homograph
+http://secure-bank.top/,true,tld_swap
+http://login-apple.cf/,true,tld_swap
+http://update-netflix.gq/,true,tld_swap
+http://github.account.xyz/,true,keyword_omission
+http://linkedin.profile.link/,true,keyword_omission
