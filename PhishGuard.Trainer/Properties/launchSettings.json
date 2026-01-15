@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PhishGuard.Trainer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

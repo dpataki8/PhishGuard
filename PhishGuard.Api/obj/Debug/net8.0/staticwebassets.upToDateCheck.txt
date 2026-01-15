@@ -1,0 +1,2 @@
+wwwroot\micosoft-login.xyz.html
+wwwroot\paypal-spoof.xyz.html

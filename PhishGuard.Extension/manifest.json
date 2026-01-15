@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard",
+  "version": "1.0",
+  "description": "Real-time phishing detection with ML-powered explainability.",
+  "permissions": ["webNavigation", "storage", "action"],
+  "host_permissions": ["http://localhost:5204/*", "<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {}
+}
