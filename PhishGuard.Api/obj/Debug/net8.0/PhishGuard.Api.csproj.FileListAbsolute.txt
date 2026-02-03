@@ -73,7 +73,6 @@ C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\PhishGua.8EA3B338.Up2Date
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\PhishGuard.Api.dll
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\refint\PhishGuard.Api.dll
@@ -81,3 +80,5 @@ C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\PhishGuard.Api.genruntimeconfig.cache
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\ref\PhishGuard.Api.dll
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\bin\Debug\net8.0\PhishGuard.Api.staticwebassets.runtime.json
+C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\PhishGuard.Api.sourcelink.json
+C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

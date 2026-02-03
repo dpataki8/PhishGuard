@@ -1,2 +1,5 @@
+wwwroot\amaz0n.shop.html
 wwwroot\micosoft-login.xyz.html
+wwwroot\paypa1-login.ml.html
 wwwroot\paypal-spoof.xyz.html
+wwwroot\slack.com.html

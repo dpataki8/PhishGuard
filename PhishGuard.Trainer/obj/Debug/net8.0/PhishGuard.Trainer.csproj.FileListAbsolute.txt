@@ -48,3 +48,5 @@ C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Tra
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Trainer\obj\Debug\net8.0\PhishGuard.Trainer.pdb
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Trainer\obj\Debug\net8.0\PhishGuard.Trainer.genruntimeconfig.cache
 C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Trainer\obj\Debug\net8.0\ref\PhishGuard.Trainer.dll
+C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Trainer\bin\Debug\net8.0\MLModel.zip
+C:\Users\dpata\Documents\PhishGuard\PhishGuard.API\PhishGuard.Api\PhishGuard.Trainer\obj\Debug\net8.0\PhishGuard.Trainer.sourcelink.json

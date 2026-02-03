@@ -1,0 +1,501 @@
+url,expected,predicted,correct,confidence,explanation,category
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://github.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://ebay.co.uk/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://amazon.co.uk/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://microsoft.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://twitter.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://amazon.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://ebay.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://microsoft.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://paypal.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://amazon.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://stackoverflow.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://amazon.co.uk/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://paypal.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://github.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://microsoft.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://microsoft.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://paypal.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://microsoft.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://amazon.co.uk/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://github.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://paypal.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://github.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://paypal.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://instagram.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://github.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://linkedin.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://ebay.co.uk/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://microsoft.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/settings",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://github.com/docs",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://instagram.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://github.com/login",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://stackoverflow.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://twitter.com/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://amazon.co.uk/signin",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://paypal.com/profile",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://google.com/account",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://stackoverflow.com/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"http://gogle-confirm.xyz/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-update.ml/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.cf/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://micosoft-account.link/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://netfliix-confirm.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-signin.xyz/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://appl3-account.ml/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://gogle-update.zulu/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://facebok-account.gq/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-secure.gq/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://facebok-login.top/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://gogle-secure.top/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-verify.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-account.zulu/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://paypa1-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-update.top/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-login.link/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://ebayy-confirm.shop/",True,True,True,1,"Model detected phishing patterns.",test
+"http://micosoft-confirm.xyz/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-secure.gq/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://gogle-secure.xyz/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-update.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-account.ml/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.click/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok-account.ml/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-verify.xyz/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://micosoft-confirm.shop/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://facebok-signin.link/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://appl3-update.gq/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-login.top/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-update.gq/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://paypa1-confirm.xyz/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-secure.top/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://netfliix-account.ml/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://gogle-confirm.top/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://gogle-verify.cf/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-secure.ml/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-login.click/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-update.ml/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-login.cf/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://amaz0n-login.xyz/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://facebok-confirm.cf/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-update.zulu/",True,True,True,1,"Model detected phishing patterns.",test
+"http://paypa1-login.shop/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-verify.xyz/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-verify.ml/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-verify.link/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-login.top/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-secure.link/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://netfliix-update.shop/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://netfliix-confirm.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-account.top/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://netfliix-update.cf/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://appl3-confirm.xyz/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-secure.click/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-account.top/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.shop/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appl3-secure.ml/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.shop/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appl3-confirm.xyz/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://facebok-account.click/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://facebok-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-signin.xyz/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://ebayy-confirm.zulu/",True,True,True,1,"Model detected phishing patterns.",test
+"http://paypa1-secure.shop/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://facebok-login.cf/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-confirm.link/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://ebayy-signin.click/",True,True,True,1,"Model detected phishing patterns.",test
+"http://paypa1-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-account.link/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://facebok-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://gogle-login.click/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Contains high-risk keyword (e.g., 'login').",test
+"http://netfliix-verify.ml/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-signin.xyz/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-confirm.click/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://netfliix-signin.cf/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://gogle-account.zulu/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://gogle-signin.ml/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-verify.xyz/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-update.click/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://amaz0n-verify.zulu/",True,True,True,1,"Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-account.gq/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.link/",True,True,True,1,"Model detected phishing patterns.",test
+"http://micosoft-signin.xyz/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-signin.click/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://ebayy-secure.top/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-login.link/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-verify.gq/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-secure.xyz/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-secure.gq/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-update.click/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://micosoft-update.click/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://facebok-signin.ml/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-signin.cf/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-login.gq/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-account.click/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://paypa1-secure.xyz/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.top/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://netfliix-account.cf/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-secure.zulu/",True,True,True,1,"Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-verify.gq/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://facebok-verify.ml/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-update.top/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-account.xyz/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-signin.ml/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://micosoft-login.ml/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-login.gq/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-signin.click/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://appl3-update.zulu/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://gogle-account.xyz/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-secure.gq/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-login.shop/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-account.cf/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-account.click/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://micosoft-confirm.zulu/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://paypa1-update.shop/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://gogle-update.click/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://paypa1-confirm.ml/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-verify.top/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://facebok-signin.cf/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-confirm.click/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://paypa1-account.top/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-secure.ml/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-secure.link/",True,True,True,1,"Contains high-risk keyword (e.g., 'login').",test
+"http://facebok-signin.shop/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://paypa1-secure.cf/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-signin.link/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-update.link/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://appl3-account.gq/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-verify.shop/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Contains high-risk keyword (e.g., 'login').",test
+"http://micosoft-account.shop/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://paypa1-secure.click/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://amaz0n-login.cf/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://ebayy-secure.cf/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-verify.ml/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-signin.xyz/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://appl3-login.gq/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-update.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-confirm.link/",True,True,True,1,"Model detected phishing patterns.",test
+"http://gogle-secure.zulu/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-confirm.shop/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://micosoft-verify.link/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Contains high-risk keyword (e.g., 'login').",test
+"http://ebayy-login.ml/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://facebok-login.zulu/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-account.shop/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://facebok-login.link/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Contains high-risk keyword (e.g., 'login').",test
+"http://micosoft-confirm.gq/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n-verify.click/",True,True,True,1,"Contains high-risk keyword (e.g., 'login').",test
+"http://facebok-account.ml/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-account.link/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appl3-secure.gq/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-signin.link/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appl3-signin.ml/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-update.zulu/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://facebok-secure.link/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Contains high-risk keyword (e.g., 'login').",test
+"http://facebok-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-signin.top/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://appl3-login.link/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-signin.top/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://facebok-account.cf/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://appl3-login.zulu/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-signin.shop/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://paypa1-update.zulu/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://facebok-confirm.click/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://facebok-verify.gq/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-confirm.gq/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://amaz0n-login.top/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://netfliix-confirm.gq/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://facebok-confirm.shop/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://netfliix-login.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-secure.top/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-signin.click/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://micosoft-update.ml/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://facebok-account.cf/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Uses uncommon or risky top-level domain.",test
+"http://appl3-secure.link/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://ebayy-confirm.shop/",True,True,True,1,"Model detected phishing patterns.",test
+"http://amaz0n-secure.click/",True,True,True,1,"Contains high-risk keyword (e.g., 'login').",test
+"http://netfliix-confirm.cf/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://ebayy-secure.xyz/",True,True,True,1,"Uses uncommon or risky top-level domain. Contains high-risk keyword (e.g., 'login').",test
+"http://paypa1-login.link/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://netfliix-update.cf/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://micosoft-account.zulu/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://netfliix-signin.top/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-secure.top/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-secure.ml/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://paypa1-signin.cf/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Uses uncommon or risky top-level domain.",test
+"http://appl3-signin.click/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://gogle-update.top/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://netfliix-secure.link/",True,True,True,1,"Detected known spoofed brand: 'netfliix'. Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-verify.gq/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://appl3-verify.shop/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://ebayy-update.shop/",True,True,True,1,"Model detected phishing patterns.",test
+"http://ebayy-account.link/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok-secure.click/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Contains high-risk keyword (e.g., 'login').",test
+"http://appl3-verify.top/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Uses uncommon or risky top-level domain.",test
+"http://gogle-confirm.zulu/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://appl3-login.click/",True,True,True,1,"Detected known spoofed brand: 'appl3'. Contains high-risk keyword (e.g., 'login').",test
+"http://gogle-secure.gq/",True,True,True,1,"Detected known spoofed brand: 'gogle'. Uses uncommon or risky top-level domain.",test
+"http://paypa1.co/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://paypa1.co/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://micros0ft.fr/",True,True,True,1,"Model detected phishing patterns.",test
+"http://l1nked1n.site/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok.com/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://amaz0n.de/",True,True,True,1,"Model detected phishing patterns.",test
+"http://micosoft.net/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://p4ypal.co.uk/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok.com/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://amaz0n.de/",True,True,True,1,"Model detected phishing patterns.",test
+"http://ebay-security.ca/",True,True,True,1,"Model detected phishing patterns.",test
+"http://paypa1.co/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://m1crosoft.org/",True,True,True,1,"Model detected phishing patterns.",test
+"http://g00gle.net/",True,True,True,1,"Model detected phishing patterns.",test
+"http://m1crosoft.org/",True,True,True,1,"Model detected phishing patterns.",test
+"http://ebay-security.ca/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appleid-support.io/",True,True,True,1,"Model detected phishing patterns.",test
+"http://p4ypal.co.uk/",True,True,True,1,"Model detected phishing patterns.",test
+"http://netfliix.uk/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://l1nked1n.site/",True,True,True,1,"Model detected phishing patterns.",test
+"http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://ebay-security.ca/",True,True,True,1,"Model detected phishing patterns.",test
+"http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://appleid-support.io/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appl3.org/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://p4ypal.co.uk/",True,True,True,1,"Model detected phishing patterns.",test
+"http://amaz0n.de/",True,True,True,1,"Model detected phishing patterns.",test
+"http://amaz0n.de/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appleid-support.io/",True,True,True,1,"Model detected phishing patterns.",test
+"http://l1nked1n.site/",True,True,True,1,"Model detected phishing patterns.",test
+"http://appl3.org/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://netfliix.uk/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://netfliix.uk/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://paypa1.co/",True,True,True,1,"Detected known spoofed brand: 'paypa1'.",test
+"http://faceb00k.com/",True,True,True,1,"Model detected phishing patterns.",test
+"http://micosoft.net/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://m1crosoft.org/",True,True,True,1,"Model detected phishing patterns.",test
+"http://m1crosoft.org/",True,True,True,1,"Model detected phishing patterns.",test
+"http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://ebay-security.ca/",True,True,True,1,"Model detected phishing patterns.",test
+"http://micros0ft.fr/",True,True,True,1,"Model detected phishing patterns.",test
+"http://micosoft.net/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://faceb00k.com/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok.com/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://micosoft.net/",True,True,True,1,"Detected known spoofed brand: 'micosoft'.",test
+"http://amaz0n.de/",True,True,True,1,"Model detected phishing patterns.",test
+"http://facebok.com/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
+"http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
