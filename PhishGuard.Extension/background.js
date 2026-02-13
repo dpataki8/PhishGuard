@@ -9,6 +9,9 @@ chrome.webNavigation.onCommitted.addListener((details) => {
   // Only process HTTP/HTTPS URLs
   if (!details.url.startsWith('http')) return;
 
+  // ⏱️ START TIME: Measure detection latency
+  const startTime = Date.now();
+  console.log(`[PhishGuard] Analysis started at: ${startTime}`);
   console.log("[PhishGuard] Analyzing URL:", details.url);
 
   // Send URL to local API
@@ -22,6 +25,10 @@ chrome.webNavigation.onCommitted.addListener((details) => {
     return response.json();
   })
   .then(result => {
+    // ⏱️ END TIME: Calculate total detection time
+    const endTime = Date.now();
+    const detectionTime = endTime - startTime;
+    console.log(`[PhishGuard] Detection completed in: ${detectionTime}ms`);
     console.log("[PhishGuard] API Response:", result);
 
     if (result.isPhishing) {
@@ -40,7 +47,9 @@ chrome.webNavigation.onCommitted.addListener((details) => {
     }
   })
   .catch(error => {
-    console.warn("[PhishGuard] API error:", error.message);
+    const endTime = Date.now();
+    const detectionTime = endTime - startTime;
+    console.warn(`[PhishGuard] API error after ${detectionTime}ms:`, error.message);
     // Clear badge on error
     chrome.action.setBadgeText({ tabId: details.tabId, text: "" });
   });

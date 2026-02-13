@@ -499,3 +499,38 @@ url,expected,predicted,correct,confidence,explanation,category
 "http://amaz0n.de/",True,True,True,1,"Model detected phishing patterns.",test
 "http://facebok.com/",True,True,True,1,"Detected known spoofed brand: 'facebok'.",test
 "http://gogle.com/",True,True,True,1,"Detected known spoofed brand: 'gogle'.",test
+"http://micosoft-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://amaz0n.com/",True,True,True,1,"Model detected phishing patterns.",test
+"http://paypal.gq/",True,True,True,1,"Uses uncommon or risky top-level domain.",test
+"http://github.com/secure/",True,True,True,1,"Contains high-risk keyword (e.g., 'login').",test
+"https://startup.ai/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://portfolio.design/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://blog.dev/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://api.cloud/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://myapp.page/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://builder.site/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://studio.art/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://data.science/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://crypto.exchange/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://health.care/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://legal.services/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://green.energy/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://urban.space/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://future.tech/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://open.source/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://secure.vault/",False,False,True,9.569617E-10,"Contains high-risk keyword (e.g., 'login').",test
+"https://fast.cdn/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://global.network/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://premium.club/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"https://next.gen/",False,False,True,9.569617E-10,"No suspicious indicators.",test
+"http://secure.micosoft-login.xyz/",True,True,True,1,"Detected known spoofed brand: 'micosoft'. Uses uncommon or risky top-level domain.",test
+"http://login.paypa1.com/account/",True,True,True,1,"Detected known spoofed brand: 'paypa1'. Contains high-risk keyword (e.g., 'login').",test
+"http://auth.netfliix.link/profile/",True,True,True,1,"Detected known spoofed brand: 'netfliix'.",test
+"http://account.appl3.org/settings/",True,True,True,1,"Detected known spoofed brand: 'appl3'.",test
+"http://portal.facebok.net/login/",True,True,True,1,"Detected known spoofed brand: 'facebok'. Contains high-risk keyword (e.g., 'login').",test
+"http://api.github.com/secure/",False,True,False,1,"Contains high-risk keyword (e.g., 'login').",test
+"http://cdn.amazon.co.uk/assets/",False,True,False,1,"Model detected phishing patterns.",test
+"http://static.microsoft.com/images/",False,True,False,1,"Model detected phishing patterns.",test
+"http://xn--80ak6aa92e.com/",True,True,True,1,"Model detected phishing patterns.",test
+"http://аррӏе.com/",True,True,True,1,"Suspicious: non-ASCII characters in domain (possible homograph attack).",test
+"http://googIe.com/",True,True,True,1,"Model detected phishing patterns.",test

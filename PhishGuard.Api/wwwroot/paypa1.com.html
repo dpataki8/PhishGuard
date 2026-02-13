@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in to Microsoft</title>
+    <title>Log in to your PayPal account</title>
     <style>
         * {
             margin: 0;
@@ -12,8 +12,8 @@
         }
 
         body {
-            background: #f3f3f3;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            font-family: Arial, Helvetica, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,10 +24,10 @@
         .login-container {
             background: white;
             border-radius: 8px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
             width: 100%;
-            max-width: 400px;
-            padding: 32px 28px;
+            max-width: 420px;
+            padding: 32px;
         }
 
         .logo {
@@ -35,14 +35,13 @@
             margin-bottom: 24px;
         }
 
-            .logo svg {
-                width: 60px;
-                height: 60px;
+            .logo img {
+                height: 40px;
             }
 
         h1 {
             font-size: 20px;
-            font-weight: 600;
+            font-weight: bold;
             color: #333;
             margin-bottom: 24px;
             text-align: center;
@@ -55,9 +54,9 @@
         label {
             display: block;
             font-size: 14px;
-            color: #555;
+            color: #444;
             margin-bottom: 6px;
-            font-weight: 500;
+            font-weight: bold;
         }
 
         input {
@@ -71,42 +70,42 @@
 
             input:focus {
                 outline: none;
-                border-color: #0078d4;
-                box-shadow: 0 0 0 2px rgba(0,120,212,0.2);
+                border-color: #0070ba;
+                box-shadow: 0 0 0 2px rgba(0,112,186,0.2);
             }
 
         .btn {
             width: 100%;
             padding: 12px;
-            background: #0078d4;
-            color: white;
+            background: #ffc439;
+            color: #333;
             border: none;
             border-radius: 4px;
             font-size: 16px;
-            font-weight: 600;
+            font-weight: bold;
             cursor: pointer;
             margin-top: 8px;
             transition: background 0.2s;
         }
 
             .btn:hover {
-                background: #106ebe;
+                background: #ffb600;
             }
 
         .footer {
             margin-top: 24px;
             text-align: center;
             font-size: 12px;
-            color: #777;
+            color: #666;
         }
 
         .disclaimer {
-            background: #fff8e1;
-            border-left: 4px solid #ffc107;
+            background: #e8f4fd;
+            border-left: 4px solid #0070ba;
             padding: 12px;
             margin-top: 24px;
             font-size: 11px;
-            color: #5d4037;
+            color: #2c3e50;
             border-radius: 0 4px 4px 0;
         }
     </style>
@@ -114,33 +113,28 @@
 <body>
     <div class="login-container">
         <div class="logo">
-            <svg viewBox="0 0 24 24" fill="#f3f3f3">
-                <rect x="0" y="0" width="12" height="12" fill="#f25022" />
-                <rect x="12" y="0" width="12" height="12" fill="#7fba00" />
-                <rect x="0" y="12" width="12" height="12" fill="#00a4ef" />
-                <rect x="12" y="12" width="12" height="12" fill="#ffb900" />
-            </svg>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal_logo_2014.svg/800px-PayPal_logo_2014.svg.png" alt="PayPal" onerror="this.style.display='none'">
         </div>
-        <h1>Sign in to your account</h1>
+        <h1>Log in to your PayPal account</h1>
 
         <form>
             <div class="input-group">
-                <label for="email">Email, phone, or Skype</label>
-                <input type="text" id="email" placeholder="someone@example.com" autocomplete="off">
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="name@domain.com" autocomplete="off">
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" placeholder="Password" autocomplete="off">
             </div>
-            <button type="submit" class="btn">Sign in</button>
+            <button type="submit" class="btn">Log In</button>
         </form>
 
         <div class="footer">
-            <p>Can't access your account?</p>
+            <p>Having trouble logging in?</p>
         </div>
 
         <div class="disclaimer">
-            <strong>Academic Simulation Notice:</strong> This is a synthetic phishing page created for cybersecurity research at Anglia Ruskin University. No data is collected.
+            <strong>Research Simulation Only:</strong> This page is part of a BSc Cyber Security dissertation at Anglia Ruskin University. It demonstrates phishing detection capabilities. No credentials are captured.
         </div>
     </div>
 </body>

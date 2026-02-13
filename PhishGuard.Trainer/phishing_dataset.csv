@@ -499,3 +499,12 @@ http://micosoft.net/,True
 http://amaz0n.de/,True
 http://facebok.com/,True
 http://gogle.com/,True
+
+# === HOMOGRAPH-ONLY VALIDATION ===
+http://paypa1.com/,true
+http://micosoft.net/,true
+http://facebok.co.uk/,true
+# === LEGITIMATE SITE EXPANSION ===
+https://zoom.us/,false
+https://slack.com/,false
+https://linear.app/,false

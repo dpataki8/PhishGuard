@@ -4,8 +4,8 @@ using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔑 Force the app to run ONLY on HTTP port 5204
-builder.WebHost.UseUrls("http://localhost:5204");
+// 🔑 Explicitly bind to all interfaces on port 5204
+builder.WebHost.UseUrls("http://0.0.0.0:5204");
 
 // 🔑 Enable CORS for Chrome extensions and localhost
 builder.Services.AddCors(options =>
@@ -58,6 +58,6 @@ app.MapPost("/predict", async (HttpContext context, PhishingDetectionService ser
 });
 
 // Optional: Add a health check
-app.MapGet("/", () => "PhishGuard API is running on http://localhost:5204");
+app.MapGet("/", () => "PhishGuard API is running on http://0.0.0.0:5204");
 
 app.Run();

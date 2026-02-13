@@ -9,9 +9,9 @@ public class Program
     public static async Task Main(string[] args)
     {
         var httpClient = new HttpClient();
-        var apiUrl = "http://localhost:5204/predict"; // 🔑 Updated to HTTP port 5204
+        var apiUrl = "http://localhost:5204/predict";
 
-        var testFile = "phishing_dataset.csv"; // 🔑 Matches your dataset name
+        var testFile = "phishing_dataset.csv";
         if (!File.Exists(testFile))
         {
             Console.WriteLine($"❌ {testFile} not found. Place it in the same folder as this EXE.");
@@ -21,15 +21,36 @@ public class Program
         var results = new List<TestResult>();
         var lines = File.ReadAllLines(testFile).Skip(1); // Skip header
 
-        Console.WriteLine("🧪 Running PhishGuard evaluation on 500 synthetic URLs...\n");
+        Console.WriteLine("🧪 Running PhishGuard evaluation on synthetic URLs...\n");
+
+        // Track sections for clearer output
+        bool homographSection = false;
+        bool legitimateSection = false;
 
         foreach (var line in lines)
         {
-            var parts = line.Split(',');
+            // Skip comment lines
+            if (line.TrimStart().StartsWith("#")) continue;
+
+            var parts = ParseCsvLine(line);
             if (parts.Length < 2) continue;
 
             var url = parts[0];
             var expected = parts[1].Equals("true", StringComparison.OrdinalIgnoreCase);
+
+            // Detect section headers for console output
+            if (url.Contains("HOMOGRAPH-ONLY") && !homographSection)
+            {
+                Console.WriteLine("\n🔍 HOMOGRAPH-ONLY VALIDATION");
+                homographSection = true;
+                continue;
+            }
+            if (url.Contains("LEGITIMATE SITE") && !legitimateSection)
+            {
+                Console.WriteLine("\n🔍 LEGITIMATE SITE EXPANSION VALIDATION");
+                legitimateSection = true;
+                continue;
+            }
 
             try
             {
@@ -50,7 +71,17 @@ public class Program
                 var explanation = root.TryGetProperty("explanation", out var expl) ? expl.GetString() ?? "" : "";
 
                 results.Add(new TestResult(url, expected, "test", isPhishing, confidence, explanation));
-                Console.WriteLine($"✅ {url} → {(isPhishing ? "PHISHING" : "SAFE")} (Expected: {(expected ? "PHISHING" : "SAFE")})");
+
+                // Enhanced console output: show explanation for phishing detections
+                if (isPhishing)
+                {
+                    Console.WriteLine($"✅ {url} → PHISHING (Expected: {(expected ? "PHISHING" : "SAFE")})");
+                    Console.WriteLine($"   Explanation: \"{explanation}\"");
+                }
+                else
+                {
+                    Console.WriteLine($"✅ {url} → SAFE (Expected: {(expected ? "PHISHING" : "SAFE")})");
+                }
             }
             catch (Exception ex)
             {
@@ -58,7 +89,7 @@ public class Program
                 Console.WriteLine($"❌ {url} → ERROR: {ex.Message}");
             }
 
-            await Task.Delay(10); // Small delay to avoid overwhelming API
+            await Task.Delay(5); // Reduced delay for faster execution
         }
 
         // Save detailed results
@@ -79,7 +110,6 @@ public class Program
         var f1 = (precision + recall) > 0 ? 2 * (precision * recall) / (precision + recall) : 0;
         var fpr = (falsePositives + trueNegatives) > 0 ? (double)falsePositives / (falsePositives + trueNegatives) * 100 : 0;
 
-        // Print full evaluation metrics
         Console.WriteLine("\n📊 EVALUATION METRICS:");
         Console.WriteLine($"   Total Valid Tests: {total}");
         Console.WriteLine($"   Accuracy:    {accuracy:F2}%");
@@ -89,6 +119,34 @@ public class Program
         Console.WriteLine($"   False Positive Rate: {fpr:F2}%");
     }
 
+    // Robust CSV parser that handles quoted fields
+    static string[] ParseCsvLine(string line)
+    {
+        var values = new List<string>();
+        var current = "";
+        bool inQuotes = false;
+
+        for (int i = 0; i < line.Length; i++)
+        {
+            char c = line[i];
+            if (c == '"' && (i == 0 || line[i - 1] != '\\'))
+            {
+                inQuotes = !inQuotes;
+            }
+            else if (c == ',' && !inQuotes)
+            {
+                values.Add(current);
+                current = "";
+            }
+            else
+            {
+                current += c;
+            }
+        }
+        values.Add(current);
+        return values.ToArray();
+    }
+
     static string BuildCsv(List<TestResult> results)
     {
         var csv = new StringBuilder();
@@ -96,7 +154,9 @@ public class Program
         foreach (var r in results)
         {
             var correct = r.Predicted.HasValue && r.Predicted.Value == r.Expected;
-            csv.AppendLine($"\"{r.Url}\",{r.Expected},{r.Predicted},{correct},{r.Confidence},\"{r.Explanation}\",{r.Category}");
+            // Escape quotes in explanation
+            var safeExplanation = r.Explanation.Replace("\"", "\"\"");
+            csv.AppendLine($"\"{r.Url}\",{r.Expected},{r.Predicted},{correct},{r.Confidence},\"{safeExplanation}\",{r.Category}");
         }
         return csv.ToString();
     }

@@ -1,0 +1,14 @@
+﻿<!-- wwwroot/spa-phishing.html -->
+<body>
+    <h1>Welcome to SecureBank</h1>
+    <button onclick="showLogin()">Continue to Login</button>
+    <div id="login" style="display:none;">
+        <input placeholder="Username"><br>
+        <input type="password" placeholder="Password">
+    </div>
+    <script>
+    function showLogin() {
+      document.getElementById('login').style.display = 'block';
+    }
+    </script>
+</body>
